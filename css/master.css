@@ -1,0 +1,233 @@
+/*******************Tag Selectors*******************/
+a {
+  color: #3FE08A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  color: #C9F7BC;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #FBFBF8;
+}
+
+hr {
+  width: 10%;
+  border-style: none none dotted none;
+  border-color: #80bdab;
+  border-width: 6px;
+  margin: 100px auto;
+
+}
+
+h1 {
+  margin: 200px auto 15px auto;
+  font-family: 'Parisienne', cursive;
+  font-size: 4.5rem;
+  color: #398063;
+
+}
+
+img {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #3FE08A;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #90ee90;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 1.60;
+}
+
+/******************Class Selectors******************/
+
+
+.middle-container {
+  background-color: #398063;
+  padding: 100px 0;
+
+}
+
+.top-cloud {
+  position: absolute;
+  width: 20%;
+  left: 10%;
+  top: 100px;
+  order: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 20%;
+  right: 10%;
+  top: 160px;
+  order: 2;
+
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #bbf1c8;
+
+}
+
+.btn {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font:'Open Sans', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.contact-me {
+  margin: 50px auto 0 auto;
+  width: 50%
+
+}
+
+.h2-myskills {
+  margin: 0;
+}
+
+.menubar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1; /*this makes menu bar display on top of the clouds when the clouds are present*/
+  }
+
+.menuitem {
+  margin: 0 10px 0;
+  text-decoration: none;
+}
+
+.mountain {
+  margin: 0 auto 0 auto;
+  width: 75%;
+  padding-top: 60px;
+
+}
+
+.linkedin {
+  width: 100%; /*this is 100% of the width of the a tag, which is 6%*/
+
+}
+
+.footer-link {
+  display: inline-block;
+  width: 6%;
+  margin: 0 8px 15px;
+}
+.profile {
+  width: 45%;
+  margin: 0 auto 80px auto;
+}
+
+.profilephoto {
+  border-radius: 10%;
+}
+.prog-img {
+  width: 15%;
+  border-radius: 3%;
+  float: right;
+  margin-left: 30px;
+  overflow: hidden;
+}
+
+.quora {
+  width: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+
+
+}
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #398063;
+}
+
+.top-container {
+  background-color: #bbf1c8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.twitter {
+  width: 100%;
+}
+
+.web-dev-img {
+  width: 15%;
+  border-radius: 3%;
+  float: left;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.writing-img {
+  width: 15%;
+  border-radius: 3%;
+  float: left;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+/********************id Selectors**********************/
+#navbarspec {
+  color: #398063;
+}
+
+#togglebar {
+  text-align: left;
+}
+
+#myprofile:target {
+  padding-top: 156px; /* = to height of navbar */
+  margin-top: -156px;
+}
+
+#skills:target {
+  padding-top: 156px; /* = to height of navbar */
+  margin-top: -156px;
+}
+
+#contact:target {
+  padding-top: 156px; /* = to height of navbar */
+  margin-top: -156px;
+}

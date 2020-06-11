@@ -24,7 +24,7 @@ hr {
 }
 
 h1 {
-  margin: 200px auto 15px auto;
+  margin: 230px auto 15px auto;
   font-family: 'Parisienne', cursive;
   font-size: 4.5rem;
   color: #398063;
@@ -63,7 +63,7 @@ p {
   position: absolute;
   width: 20%;
   left: 10%;
-  top: 100px;
+  top: 130px;
   order: 2;
 }
 
@@ -71,7 +71,7 @@ p {
   position: absolute;
   width: 20%;
   right: 10%;
-  top: 160px;
+  top: 190px;
   order: 2;
 
 }

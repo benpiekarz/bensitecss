@@ -227,6 +227,11 @@ p {
   margin-top: -156px;
 }
 
+#positions:target {
+  padding-top: 156px; /* = to height of navbar */
+  margin-top: -156px;
+}
+
 #contact:target {
   padding-top: 156px; /* = to height of navbar */
   margin-top: -156px;

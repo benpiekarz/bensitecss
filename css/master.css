@@ -52,6 +52,9 @@ p {
 
 /******************Class Selectors******************/
 
+.navbar {
+  font-family: Montserrat !important
+}
 
 .middle-container {
   background-color: #398063;
